@@ -1,0 +1,23 @@
+/* Custom styles for Shopbrain Docs */
+
+/* Overriding the green 'info' callouts to use the primary red color */
+
+/* This targets callouts with a light green background */
+div[class*="bg-green-50"] {
+  background-color: #fde8e8 !important; /* A light red for the background */
+}
+
+/* This targets the border of the callouts */
+div[class*="border-green-200"] {
+  border-color: #f7baba !important; /* A soft red for the border */
+}
+
+/* This targets the icon inside the callouts */
+svg[class*="text-green-400"] {
+  color: #d33131 !important; /* The main red for the icon */
+}
+
+/* This targets the title text of the callouts */
+h5[class*="text-green-800"] {
+    color: #a12626 !important; /* A darker red for the title */
+}
